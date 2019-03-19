@@ -1,0 +1,43 @@
+.welcome-content
+{
+	margin-top :50px;
+}
+
+.welcome-button
+{
+	width  :500px;
+	height :250px;
+}
+
+.administration-content
+{
+	margin-top :50px;
+}
+
+.administration-button
+{
+	width  :500px;
+	height :150px;
+}
+
+
+.temp-table
+{
+
+	table-layout :fixed;
+	width        :220px;
+}
+
+table.table-hover tbody tr:hover .temp-table tr
+{
+	background-color   :#FFFFFF;
+	-webkit-transition :.5s;
+	transition         :.5s;
+}
+
+.temp-table td
+{
+
+	width   :60px;
+	/*display :inline-block;*/
+}
